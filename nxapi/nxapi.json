@@ -6,7 +6,7 @@
  "doctype" : "events",
  "default_ttl" : "7200",
  "max_size" : "1000",
- "version" : "2"
+ "version" : "6"
 },
 "syslogd": {
  "host" : "0.0.0.0",
@@ -27,7 +27,7 @@
  "global_rule_ip_ratio" : ["<", 2]
 },
 "naxsi" : {
- "rules_path" : "/etc/nginx/naxsi_core.rules",
+ "rules_path" : "../naxsi_config/naxsi_core.rules",
  "template_path" : [ "tpl/"],
  "geoipdb_path" : "nx_datas/country2coords.txt"
 },
